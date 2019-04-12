@@ -1,0 +1,24 @@
+.row{
+    display:none;
+    position:relative;
+}
+.row>img{
+    position:absolute;
+    width:80px;
+    left:15px;
+    z-index:1;
+}
+.one:hover .row{
+    display:block;
+}
+.two{
+    background-color: #ececec;
+    padding-left:10px;
+    margin-bottom:17px;
+}
+.three{
+    margin-bottom:10px;
+}
+.four:hover>a{
+    color:#337ab7;
+}
